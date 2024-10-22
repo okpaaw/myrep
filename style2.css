@@ -1,0 +1,415 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+*,
+  *::before,
+  *::after {
+      box-sizing: border-box; 
+  } 
+  
+  
+ @font-face {
+    font-family: "EB Garamond", serif;
+    src: url(fonts/ebgaramondmedium.woff2);
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "EB Garamond", serif;
+    src: url(fonts/ebgaramondregular.woff2);
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url(fonts/interbold.woff2);
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url(fonts/interregular.woff2);
+    font-weight: normal;
+    font-style: normal
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+
+body {
+    font-family: "Inter", sans-serif , "EB Garamond", serif;
+}
+  
+
+  
+body {
+    font-family: "Inter", sans-serif, "EB Garamond", serif;
+    background-color: #131313;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    color: #f5f5f5;
+    font-size: 16px;
+    font-weight: 400;
+
+      
+  }
+
+  .header li{
+    list-style: none;  
+  }
+  
+  .header__logo {
+    margin-top: 24px;
+    margin-left: 20px;
+  }
+  
+  .header__menu {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 18.5px;
+  }
+  
+  .header__menu-item:not(:last-child) {
+    margin-bottom: 12px;
+  }
+  
+  .header__menu-item:nth-last-child(-n + 2) {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  
+  
+  
+  .cover-tittle {
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    margin-top: 7px;
+    padding-top: 20px;
+    position: relative;
+    width: 360px;
+    min-height: 221px;
+  }
+  
+  span {
+    position: absolute;
+    color: white;
+    background-color: transparent;
+  }
+  
+  .large-letter {
+    font-size: 72px;
+    top: -10px;
+    left: 0;
+  }
+  
+  .main-text {
+    font-size: 72px;
+
+  }
+  
+  .first {
+    top: 67px;
+    left: 60px;
+  }
+  
+  .second {
+    top: 148px;
+    left: 160px;
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+.header__logo{
+    width: 78px;
+    height: 15px;
+    
+}
+
+.br__upper{
+    padding-top: 40px;
+
+}
+
+
+.upper__cover{
+    background-color:#FEE42A; 
+    padding-bottom: 40px;
+}
+
+.up-cover__text-block{
+    margin-left: 12px;
+    font-family: "EB Garamond", serif;
+    position: relative;
+    width: 320px; 
+    height: 61px; 
+    color: black;
+    font-size: 23px;
+
+}
+
+.up-cover__top-text{
+    position: absolute;
+    left: 80px;
+    white-space: nowrap; 
+}
+
+.up-cover__bottom-text{
+    position: absolute;
+    bottom: 0;
+    white-space: nowrap; 
+}
+
+.up-cover__title-info{
+    padding-left: 21px;
+    position: relative;
+    line-height: 135%;
+    margin-top: 32px;
+    font-size: 19px;
+    color: black;
+}
+
+.up-cover__title-info p{
+ width: 320px;
+}
+
+.ullist {
+    width: 320px;
+}
+
+.list {
+    width: 320px;
+}
+
+
+
+
+.list:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.upper__info{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 32px;
+    
+}
+
+.lower__cover{
+    background-color:#131313; 
+
+}
+
+.cover__text-block {
+    margin-left: 12px;
+    font-family: "EB Garamond", serif;
+    position: relative;
+    width: 320px; 
+    height: 61px; 
+    color: white;
+    font-size: 23px;
+  }
+  
+  .cover__top-text {
+    position: absolute;
+    left: 80px;
+    white-space: nowrap; 
+  }
+  
+  .cover__bottom-text {
+    position: absolute;
+    bottom: 0;
+    white-space: nowrap; 
+  }
+.cover__title-info{
+    line-height: 135%;
+    margin-top: 32px;
+    margin-left: 20px;
+    max-width: 320px;
+    font-size: 20px;
+    color: white;
+}
+
+.polar-bio{
+    margin-left: 20px;
+    margin-top: 32px;
+    width: 319px;
+    height: 492px;
+    border-radius: 30px;
+    color: white;
+    background: #343434;
+
+    
+}
+
+.polar-bio__container{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+
+.polyarinov-img{
+    margin-bottom: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+.polyarinov-name__title{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.polyarinov-bio__title{
+    font-family: "EB Garamond", serif;
+    margin-top: 8px;
+    white-space: nowrap; 
+    width: 279px;
+    font-size: 18px;
+}
+
+.polyarinov-bio__text{
+    font-weight: 400;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+.motiv-info{
+    margin-left: 20px;
+    margin-top: 32px;
+    width: 319px;
+    height: 385px;
+    border-radius: 30px;
+    color: black;
+    background: #FEE42A;
+}
+
+.motiv-title{
+    padding-top: 20px;
+    margin-left: 20px;
+    font-family: "EB Garamond", serif;
+    font-size: 22px;
+    line-height: 135%;
+}
+
+.motiv-text{
+    width: 279px;
+    height: 261px;
+    margin-left: 20px;
+    padding-top: 8px;
+    line-height: 21.6px;
+}
+
+.bunin-bio{
+    margin-left: 20px;
+    margin-top: 32px;
+    margin-bottom: 60px;
+    width: 319px;
+    height: 559px;
+    border-radius: 30px;
+    color: white;
+    background: #343434;
+}
+
+.bunin-bio__container{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.bunin-img{
+    margin-bottom: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+.bunin-name__title{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bunin-bio__title{
+    line-height: 135%;
+    font-family: "EB Garamond", serif;
+    margin-top: 8px;
+    width: 279px;
+    font-size: 22px;
+}
+
+.bunin-bio__text{
+    font-weight: 400;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px #FEE42A solid;
+    height: 62px;
+    background-color:#131313; 
+    color: white;
+}
+
+.footer__links{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    gap: 16px;
+    font-size: 14px;
+}
+
+.logo__footer{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 135%;
+    font-size: 16px;
+}
+
+.top-content__box {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    line-height: 21.6px;
+    color: #f5f5f5;
+
+}
+
+.top-content__box-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-content__box p:not(:last-child){
+    margin-bottom: 24px;
+
+}
+
+.top-content__box p:last-child{
+    margin-bottom: 30px;
+
+}
